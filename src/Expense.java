@@ -29,4 +29,8 @@ public class Expense {
             " | Amount: $" + amount
         );
     }
+    @Override
+public String toString() {
+    return name + "," + category + "," + amount;
+}
 }
